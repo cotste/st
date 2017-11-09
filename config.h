@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "FuraCode Nerd Font:style=Medium:size=10";
+char font[] = "FuraCode Nerd Font:style=Medium:size=12";
 int borderpx = 2;
 
 /*
@@ -87,7 +87,7 @@ const char *colorname[] = {
 	/* 8 normal colors */
 	"#222222", //"black", 		//   0
 	"#9e2b18", //"red3",			//   1
-	"#6e7b45", //"green3",		//   2
+	"#4ac948", //"#6e7b45", //"green3",		//   2
 	"#eab93d", //"yellow3",		//   3
 	"#204a87", //"blue2",		//   4
 	"#ce5c00", //"magenta3",		//   5
