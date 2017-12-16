@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "FuraCode Nerd Font:style=Medium:size=12";
+char font[] = "FuraCode Nerd Font:style=Medium:size=13";
 int borderpx = 2;
 
 /*
@@ -85,24 +85,24 @@ static unsigned int tabspaces = 4;
 /* Terminal colors (16 first used in escape sequence) */
 const char *colorname[] = {
 	/* 8 normal colors */
-	"#222222", //"black", 		//   0
-	"#9e2b18", //"red3",			//   1
-	"#4ac948", //"#6e7b45", //"green3",		//   2
-	"#eab93d", //"yellow3",		//   3
-	"#204a87", //"blue2",		//   4
-	"#ce5c00", //"magenta3",		//   5
-	"#89b6e2", //"cyan3",		//   6
-	"#cccccc", //"gray90",		//   7
+	"#282a2e", //"#222222", //"black", 		//   0
+	"#a54242", //"#9e2b18", //"red3",			//   1
+	"#7ca454", //"#4ac948", //"#6e7b45", //"green3",		//   2
+	"#de935f", //"#eab93d", //"yellow3",		//   3
+	"#5f819d", //"#204a87", //"blue2",		//   4
+	"#85678f", //"#ce5c00", //"magenta3",		//   5
+	"#5e8d87", //"#89b6e2", //"cyan3",		//   6
+	"#969896", //"#cccccc", //"gray90",		//   7
 
 	/* 8 bright colors */
-	"#444444", //"gray50",		//   8
-	"#e5786d", //"red",			//   9
-	"#95e454", //"green",		//  10
-	"#ffc123", //"yellow",		//  11
-	"#87afff", //"#5c5cff",		//  12
-	"#f57900", //"magenta",		//  13
-	"#46a4ff", //"cyan",			//  14
-	"#ffffff", //"white",		//  15
+	"#373b41", //"#444444", //"gray50",		//   8
+	"#cc6666", //"#e5786d", //"red",			//   9
+	"#afd787", //"#95e454", //"green",		//  10
+	"#f0c674", //"#ffc123", //"yellow",		//  11
+	"#81a2be", //"#87afff", //"#5c5cff",		//  12
+	"#b294bb", //"#f57900", //"magenta",		//  13
+	"#8abeb7", //"#46a4ff", //"cyan",			//  14
+	"#c5c8c6", //"#ffffff", //"white",		//  15
 
 	[255] = 0,
 
