@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "FuraCode Nerd Font:style=Medium:size=13";
+char font[] = "FuraCode Nerd Font:style=Medium:size=11";
 int borderpx = 2;
 
 /*
