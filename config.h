@@ -17,7 +17,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
@@ -87,8 +87,34 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
+
+	"#222222",
+	"#9e2b18",
+	"#4ac948",
+	"#eab93d",
+	"#204a87",
+	"#ce5c00",
+	"#89b6e2",
+	"#cccccc",
+	"#444444",
+	"#e5786d",
+	"#95e454",
+	"#ffc123",
+	"#87afff",
+	"#f57900",
+	"#46a4ff",
+	"#ffffff",
+
+	[255] = 0,
+
+	/* more colors can be added after 255 to use with DefaultXX */
+	"#cccccc", 		// 256
+	"#555555",		// 257
+	"#1c1c1c",		// 258
+
+
+//	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+/*	"#cc241d",
 	"#98971a",
 	"#d79921",
 	"#458588",
@@ -103,6 +129,7 @@ static const char *colorname[] = {
 	"#d3869b",
 	"#8ec07c",
 	"#ebdbb2",
+*/
 };
 
 
